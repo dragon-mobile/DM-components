@@ -1,0 +1,20 @@
+[tool.pyright]
+stubPath = "/home/dragon/repos/github/Dragonrun1/dragon_mobile/DM-components/3DModels/Tools/typings"
+
+pythonVersion = "3.10"
+pythonPlatform = "Linux"
+typeCheckingMode = "standard"
+extraPaths = [
+    "/home/dragon/repos/github/freecad/build/bin",
+    "/home/dragon/repos/github/freecad/build/lib",
+    "/home/dragon/repos/github/freecad/build/src",
+    "/home/dragon/repos/github/freecad/build/Ext",
+    "/home/dragon/repos/github/freecad/build/Mod",
+]
+[tool.ruff]
+fix = true
+target-version = "py310"
+
+[tool.ruff.format]
+docstring-code-format = true
+line-ending = "lf"

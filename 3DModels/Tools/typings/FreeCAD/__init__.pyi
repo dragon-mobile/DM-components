@@ -1,0 +1,3 @@
+from Application import App as App
+class FreeCAD:
+    ...

@@ -1,0 +1,260 @@
+(footprint "R_0603_1608Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "EIA 0603, 1608Metric resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.3125 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93dfcd09-157f-45b9-b542-9183372695e6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_0603_1608Metric"
+		(at 0 1.3125 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "859a491f-c13c-4172-a450-e27c7426dd7f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "DM-Footprints:C_0603_1608Metric"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfad7425-d2ea-4a88-bd5d-41d5a60514e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "973ce305-43c4-47c8-9fe3-092b059cb2fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Description" "Footprint for EIA 0603, 1608Metric resistor"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd8426f-6097-42a4-97ba-f853ff135c21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(clearance 0.1675)
+	(attr smd)
+	(fp_line
+		(start -0.3575 -0.7075)
+		(end 0.3575 -0.7075)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "499e442d-8b94-42bc-aeb1-771b616206ca")
+	)
+	(fp_line
+		(start -0.3575 0.7075)
+		(end 0.3575 0.7075)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7caa336-f4db-4b11-9f43-4cc006b3b893")
+	)
+	(fp_rect
+		(start -1.45 -0.77)
+		(end 1.45 0.77)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c2e6bf3e-7b61-4183-a6be-b08136888051")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "82cc9a22-6d75-4851-b861-6ae136eaaf66")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d855f75-38eb-4678-b9b6-2612b424d7e6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.8 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 -0.225) (xy -0.240485 -0.272835) (xy -0.213388 -0.313388) (xy -0.172835 -0.340485) (xy -0.125 -0.35)
+					(xy 0.125 -0.35) (xy 0.172835 -0.340485) (xy 0.213388 -0.313388) (xy 0.240485 -0.272835) (xy 0.25 -0.225)
+					(xy 0.25 0.225) (xy 0.240485 0.272835) (xy 0.213388 0.313388) (xy 0.172835 0.340485) (xy 0.125 0.35)
+					(xy -0.125 0.35) (xy -0.172835 0.340485) (xy -0.213388 0.313388) (xy -0.240485 0.272835) (xy -0.25 0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start 0.328 0.4)
+						(mid 0.319799 0.419799)
+						(end 0.3 0.428)
+					)
+					(arc
+						(start -0.097002 0.428)
+						(mid -0.226401 0.374401)
+						(end -0.28 0.245002)
+					)
+					(arc
+						(start -0.28 -0.245002)
+						(mid -0.226401 -0.374401)
+						(end -0.097002 -0.428)
+					)
+					(arc
+						(start 0.3 -0.428)
+						(mid 0.319799 -0.419799)
+						(end 0.328 -0.399999)
+					)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 1)
+			(max_length 2)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 1)
+			(enabled yes)
+			(allow_two_segments no)
+			(prefer_zone_connections yes)
+		)
+		(uuid "eeaca1d5-4fec-42cf-a130-6593479d50be")
+	)
+	(pad "2" smd custom
+		(at 0.8 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.25 -0.225) (xy -0.240485 -0.272835) (xy -0.213388 -0.313388) (xy -0.172835 -0.340485) (xy -0.125 -0.35)
+					(xy 0.125 -0.35) (xy 0.172835 -0.340485) (xy 0.213388 -0.313388) (xy 0.240485 -0.272835) (xy 0.25 -0.225)
+					(xy 0.25 0.225) (xy 0.240485 0.272835) (xy 0.213388 0.313388) (xy 0.172835 0.340485) (xy 0.125 0.35)
+					(xy -0.125 0.35) (xy -0.172835 0.340485) (xy -0.213388 0.313388) (xy -0.240485 0.272835) (xy -0.25 0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start -0.3 -0.428)
+						(mid -0.319799 -0.419799)
+						(end -0.328 -0.4)
+					)
+					(arc
+						(start -0.328 0.4)
+						(mid -0.319799 0.419799)
+						(end -0.3 0.428)
+					)
+					(arc
+						(start 0.097 0.428)
+						(mid 0.226401 0.374401)
+						(end 0.28 0.245)
+					)
+					(arc
+						(start 0.28 -0.245)
+						(mid 0.226401 -0.374401)
+						(end 0.097 -0.428)
+					)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 1)
+			(max_length 2)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 1)
+			(enabled yes)
+			(allow_two_segments no)
+			(prefer_zone_connections yes)
+		)
+		(uuid "e9bf0bc4-423f-42aa-8cd1-a28d780ef998")
+	)
+	(model "${DM_BASE_DIR}/DM-components/3DModels/RESC1608X05N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,153 @@
+(footprint "C_0201_0603Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "EIA 0201, 0603Metric cap")
+	(property "Reference" "REF**"
+		(at 0 -0.875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa4a81e7-6753-47b0-aba5-b3b9f057b5be")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_0201_0603Metric"
+		(at 0 0.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e7720d9b-034f-443e-978e-26b559164a13")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "660cfec5-a2ad-4d6b-912f-76929d21dfb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cffd57f-2aca-411f-bc3f-09054c963a91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Footprint for EIA 0201, 0603Metric cap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15fc6384-62c2-4ecd-ac3b-315696a7f0bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.12)
+	(attr smd)
+	(fp_line
+		(start -0.0625 0.3125)
+		(end 0.0625 0.3125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68cd83e1-f874-4335-aac1-6dbed39c0f86")
+	)
+	(fp_line
+		(start -0.057 -0.3125)
+		(end 0.057 -0.3125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b717abe-1c24-4308-9d55-a8426ec8a85f")
+	)
+	(fp_rect
+		(start -0.6 -0.345)
+		(end 0.6 0.345)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1069d694-4f8d-40cb-974d-b87186143e36")
+	)
+	(fp_rect
+		(start -0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cdbf0e5c-7346-4503-a77a-519ee99bd446")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f404521-b231-4908-85a9-05580a0832ad")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 0 90)
+		(size 0.39 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a1b9ab98-e1f5-4f91-ad42-d1177f5d9fcd")
+	)
+	(pad "2" smd roundrect
+		(at 0.3 0 90)
+		(size 0.39 0.33)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f45e2723-1a03-4dae-a8a7-8cd44ec3df84")
+	)
+	(model "${DM_BASE_DIR}/DM-components/3DModels/CAPC0603X03N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

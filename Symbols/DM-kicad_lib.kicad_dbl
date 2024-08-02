@@ -1,0 +1,1247 @@
+{
+    "meta": {
+        "version": 0
+    },
+    "name": "DM Database Library",
+    "description": "Dragon Mobile shared components library",
+    "source": {
+        "type": "odbc",
+        "timeout_seconds": 2,
+        "dsn": "",
+        "connection_string": "Driver={SQLite3};Database=DMComponents"
+    },
+    "libraries": [
+        {
+            "name": "Capacitors",
+            "table": "capacitor",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "Connectors",
+            "table": "connector",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "Diodes",
+            "table": "diode",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "power",
+                    "name": "Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "LEDs",
+            "table": "led",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "color",
+                    "name": "Color",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "power",
+                    "name": "Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "Resistors",
+            "table": "resistor",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "power",
+                    "name": "Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "Switches",
+            "table": "switch",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "Transistor FET",
+            "table": "transistor_fet",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "power",
+                    "name": "Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        },
+        {
+            "name": "TVS",
+            "table": "tvs",
+            "key": "id",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet_local",
+                    "name": "Datasheet (local)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "desc",
+                    "name": "Desc",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "height",
+                    "name": "Height",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_name",
+                    "name": "Manufacturer Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "manufacturer_pn",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "sub_requirements",
+                    "name": "Substitution Requirements",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_name",
+                    "name": "Vendor Name",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn",
+                    "name": "Vendor Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "vendor_pn_url",
+                    "name": "Vendor Part URL",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "power",
+                    "name": "Power",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "qualification",
+                    "name": "Qualification",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "voltage",
+                    "name": "Voltage",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "Desc",
+                "exclude_from_board": "Schematic Only",
+                "exclude_from_bom": "No BOM",
+                "keywords": "Keywords"
+            }
+        }
+    ]
+}
