@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -265,7 +268,7 @@
 		)
 		(uuid "81bd66ca-5d10-402c-83b5-b10f5b33e337")
 	)
-	(model "${DM_BASE_DIR}/shared_components/3D_Models/exb-s8v.step"
+	(model "${DM_3DMODEL_DIR}/exb-s8v.step"
 		(offset
 			(xyz 0 0 0)
 		)
