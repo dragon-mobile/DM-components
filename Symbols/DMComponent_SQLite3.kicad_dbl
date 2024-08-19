@@ -6,9 +6,8 @@
     "description": "Dragon Mobile shared components library",
     "source": {
         "type": "odbc",
-        "timeout_seconds": 2,
-        "dsn": "",
-        "connection_string": "Driver={SQLite3};Database=DMComponents"
+        "dsn": "KiCAD-SQLite3",
+        "timeout_seconds": 4
     },
     "libraries": [
         {

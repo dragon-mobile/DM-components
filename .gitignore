@@ -25,5 +25,9 @@ fp-info-cache
 *.dsn
 *.ses
 
+# IDE directories
 .idea/
 .vscode/
+
+# Old SQL symbol files
+Symbols/*.db
