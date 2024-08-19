@@ -306,21 +306,9 @@
 		(roundrect_rratio 0.2222222222)
 		(uuid "ea2263e3-5d15-4664-b198-cf880ef668dd")
 	)
-	(model "C:/repos/github/Dragonrun1/dragon_mobile/DM-components/3DModels/VQFN-HR.step"
+	(model "${DM_BASE_DIR}/DM-components/3DModels/VQFN-HR.step"
 		(offset
 			(xyz 0 0 -0.05)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/repos/github/Dragonrun1/dragon_mobile/downloads/LMR43620MSC3RPERQ1/RPE0009A.stp"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
