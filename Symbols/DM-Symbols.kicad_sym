@@ -303,6 +303,164 @@
 			)
 		)
 	)
+	(symbol "CastellatedPinPads_1x04"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "J101"
+			(at 0 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "VIN"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "DM-Footprint:Castellated_PinPads_1x04_P1.27mm"
+			(at 0 -18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -20 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "castellated pin solder pads"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CastellatedPinPads_1x04_0_1"
+			(rectangle
+				(start -2.54 5.08)
+				(end 2.54 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CastellatedPinPads_1x04_1_0"
+			(pin passive line
+				(at -5.08 3.81 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "GND" passive line)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "GND" passive line)
+				(alternate "VCC" passive line)
+				(alternate "VIN" passive line)
+				(alternate "VOUT" passive line)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "GND" passive line)
+				(alternate "VCC" passive line)
+				(alternate "VIN" passive line)
+				(alternate "VOUT" passive line)
+			)
+			(pin passive line
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(alternate "GND" passive line)
+			)
+		)
+	)
 	(symbol "D_Schottky_Dual_K1K2A_Parallel"
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -1730,8 +1888,8 @@
 			)
 		)
 	)
-	(symbol "LMR435x0"
-		(exclude_from_sim no)
+	(symbol "LMR436x0"
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
@@ -1754,7 +1912,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DM-Footprint:VQFN-HR"
 			(at 0 -26 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1766,7 +1924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmr43610-q1"
 			(at 0 -22 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1778,7 +1936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Regulator Switching - Low-EMI synchronous buck regulator, 2µA Iq, xA Iout, 3.6V - 36Vin, Vout 1V - 0.95Vin, AEC-Q100, VQFN-HR"
 			(at 0 -20 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1790,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet (local)" ""
+		(property "Datasheet (local)" "~"
 			(at 0 -24 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1802,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
+		(property "Height" "1.00mm"
 			(at 0 -28 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1814,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
+		(property "Manufacturer Name" "Texas Instruments"
 			(at 0 -30 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1826,7 +1984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "LMR43620RS3QRPERQ1"
 			(at 0 -32 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1838,7 +1996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
+		(property "Package" "VQFN-HR"
 			(at 0 -34 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1850,7 +2008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Substitution Requirements" ""
+		(property "Substitution Requirements" "~"
 			(at 0 -36 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1862,7 +2020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 0 -38 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1874,7 +2032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Name" ""
+		(property "Vendor Name" "Mouser"
 			(at 0 -40 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1886,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "595-R43620RS3QRPERQ1"
 			(at 0 -42 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1898,7 +2056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part URL" ""
+		(property "Vendor Part URL" "https://www.mouser.com/access/?pn=LMR436x0"
 			(at 0 -44 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1910,7 +2068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Desc" ""
+		(property "Desc" "Regulator Switching - Low-EMI synchronous buck regulator"
 			(at 0 -46 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1922,7 +2080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Current" ""
+		(property "Current" "2µA Iq, xA Iout"
 			(at 0 -48 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1934,7 +2092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Qualification" "AEC-Q100"
 			(at 0 -50 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1946,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Qualification" ""
+		(property "Voltage" "3.6V - 36Vin, Vout 1V - 0.95Vin"
 			(at 0 -52 0)
 			(show_name)
 			(do_not_autoplace)
@@ -1958,19 +2116,16 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
-			(at 0 -54 0)
-			(show_name)
-			(do_not_autoplace)
+		(property "ki_keywords" "switching buck converter power-supply voltage regulator"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(symbol "LMR435x0_0_0"
+		(symbol "LMR436x0_0_0"
 			(pin open_collector line
 				(at -10.16 1.27 0)
 				(length 2.54)
@@ -2008,7 +2163,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -3.683 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -2026,7 +2181,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -1.143 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -2044,7 +2199,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.763 90)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2062,10 +2217,10 @@
 				)
 			)
 		)
-		(symbol "LMR435x0_0_1"
+		(symbol "LMR436x0_0_1"
 			(rectangle
-				(start -7.62 6.477)
-				(end 7.62 -6.223)
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -2075,7 +2230,7 @@
 				)
 			)
 		)
-		(symbol "LMR435x0_1_0"
+		(symbol "LMR436x0_1_0"
 			(pin input line
 				(at -10.16 3.81 0)
 				(length 2.54)
@@ -2116,7 +2271,7 @@
 				(alternate "UVLO" passive line)
 			)
 			(pin passive line
-				(at 10.16 1.397 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2134,7 +2289,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 3.937 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -5144,14 +5299,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5162,14 +5317,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5180,14 +5335,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5198,14 +5353,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5216,14 +5371,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5234,14 +5389,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5252,14 +5407,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -5289,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DM-Footprints:SOT65P210X110-3N"
+		(property "Footprint" "DM-Footprint:SOT65P210X110-3N"
 			(at 0 -20 0)
 			(show_name)
 			(do_not_autoplace)
@@ -5469,7 +5624,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DM-Footprint:VSON-8_DRB"
 			(at 0 -36 0)
 			(show_name)
 			(do_not_autoplace)
@@ -6383,7 +6538,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 -21.59 0)
+			(at 5.08 -21.59 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -6391,7 +6546,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DM-Footprint:XF3M1-1515-1B"
 			(at 0 -32 0)
 			(show_name)
 			(do_not_autoplace)
@@ -6585,271 +6740,271 @@
 		)
 		(symbol "XF3M1-1515-1B_0_0"
 			(pin passive line
-				(at -7.62 17.78 0)
+				(at -5.08 17.78 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -7.62 0)
+				(at -5.08 -7.62 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -10.16 0)
+				(at -5.08 -10.16 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -12.7 0)
+				(at -5.08 -12.7 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -15.24 0)
+				(at -5.08 -15.24 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -17.78 0)
+				(at -5.08 -17.78 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 15.24 0)
+				(at -5.08 15.24 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 12.7 0)
+				(at -5.08 12.7 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at -5.08 10.16 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 7.62 0)
+				(at -5.08 7.62 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -5.08 5.08 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 0.9906 0.9906)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -6857,8 +7012,8 @@
 		)
 		(symbol "XF3M1-1515-1B_0_1"
 			(rectangle
-				(start -5.08 20.32)
-				(end 3.81 -20.32)
+				(start -2.54 20.32)
+				(end 2.54 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -6870,37 +7025,37 @@
 		)
 		(symbol "XF3M1-1515-1B_1_0"
 			(pin passive line
-				(at 7.62 0 180)
-				(length 3.81)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
-							(size 1 1)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "MP1"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.016 1.016)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
-				(length 3.81) hide
+				(at 5.08 0 180)
+				(length 2.54) hide
 				(name ""
 					(effects
 						(font
-							(size 1 1)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "MP2"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -6930,7 +7085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM-footprint:XT60-M_Horizonal_Pigtail_Align_Up"
+		(property "Footprint" "DM-Footprint:XT60-M_Horizonal_Pigtail_Align_Up"
 			(at 0 -10 0)
 			(effects
 				(font
@@ -7091,6 +7246,74 @@
 					)
 				)
 				(alternate "PWR_OUT" power_out line)
+			)
+		)
+	)
+	(symbol "LMR43620-Q1"
+		(extends "LMR436x0")
+		(property "Reference" "U"
+			(at 0 6.858 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "LMR43620-Q1"
+			(at 1.27 -6.858 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "DM-Footprint:VQFN-HR"
+			(at 0 -26 0)
+			(show_name)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -22 0)
+			(show_name)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Regulator Switching - Low-EMI synchronous buck regulator, 2µA Iq, 2A Iout, 3.6V - 36Vin, Vout 1V - 0.95Vin, AEC-Q100, VQFN-HR"
+			(at 0 -20 0)
+			(show_name)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switching buck converter power-supply voltage regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
